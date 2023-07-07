@@ -1,13 +1,136 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;600&display=swap');
+
+.body{
+ padding-left: 580px;
+ padding-right: 530px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button:hover {
+ cursor: pointer;
 }
+
+
+.heading{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Manrope', sans-serif;
+ font-weight: 700;
+ font-size: 15px;
+ border-bottom: 1px solid rgb(231, 229, 229);
+}
+
+.container{
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+ border: 1px solid rgb(187, 186, 186);
+ padding-left: 30px;
+ border-radius: 10px;
+ padding-right: 30px;
+ padding-bottom: 20px;
+}
+
+.cnr{
+ padding-left: 14px;
+}
+
+.welcome {
+ padding-top: 10px;
+ font-family: 'Manrope', sans-serif;
+ font-weight: 600;
+ font-size: 18px;
+}
+
+
+
+.dropdown1 {
+   display: flex;
+   justify-content:space-around;
+   flex-direction: column;
+   align-items: flex-start;
+   border: 1px solid rgb(187, 186, 186);
+   border-radius: 10px 10px 0px 0px;
+   font-family: 'Manrope', sans-serif;
+   font-size: 9px;
+   padding: 3px;
+   height: 50px;
+}
+
+.select {
+ border: none;
+ font-family: 'Manrope', sans-serif;
+ font-weight: 500;
+ font-size: 15px;
+ color: black; 
+ padding-right: 285px;
+ padding-bottom: 1px;
+ padding-left: 10px;
+}
+
+
+.pn::placeholder{
+ position: relative;
+ font-family: 'Manrope', sans-serif; 
+ text-align: start;
+ transition: all 0.3s ease;
+}
+
+.pn{
+ border: 1px solid rgb(187, 186, 186);
+ border-radius: 0px 0px 10px 10px;
+ width: 410px;
+ height: 50px;
+ padding-left: 20px;
+ font-family: 'Manrope', sans-serif; 
+ font-size: 15px;
+}
+
+.pn:focus::placeholder{
+
+ font-size: 9px;
+ top: -12px;
+}
+
+.inf{
+ font-family: 'Manrope', sans-serif; 
+ font-size: 10px;
+}
+
+.continue{
+ height:40px;
+ border: none;
+ border-radius: 10px;
+ background-color: rgb(221,15,99);
+ font-family: 'Manrope', sans-serif; 
+ color: white;
+ font-weight: bold;
+}
+
+.ccc{
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 30px;
+ border-bottom: 1px solid rgb(231, 229, 229);
+}
+
+.loginoptions{
+ display: flex;
+ flex-direction: column;
+ padding-top: 20px;
+ justify-content: space-between;
+ }
+
+.boob{
+ height:45px;
+ border: 1px solid black;
+ border-radius: 10px;
+ background-color: white;
+ margin-bottom: 15px;
+ font-family: 'Manrope', sans-serif; 
+ font-weight: bolder;
+ }
+
+ .boob:hover{
+   background-color: rgb(242, 242, 242);
+ }

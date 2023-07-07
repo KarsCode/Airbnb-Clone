@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+
+import LoginTemplate from './Logintemplate';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Airbnb Michael Jordan
-        </a>
-      </header>
+     <div className="content">
+        <h1> Header </h1>
+      </div>
+      <LoginTemplate/>
     </div>
   );
 }
