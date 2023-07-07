@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    width: 100%;
+    //background-color: aqua;
+    height: 70px ;
+    border-bottom: 1px rgb(117, 114, 114) solid;
+    
+    .contents{
+        font-size: 34px;
+        color:#ff5a60 ;
+        margin-top: 15px;
+
+        
+
+    }
+    .logo{
+    
+    margin-left: 100px;    
+        
+     line-height: 50px; 
+    }
+
+    .logotxt{
+        
+       
+        margin-left: 10px;
+        text-decoration: none;
+        font-weight: 560;
+
+
+        &:visited{
+            color:#ff5a60 ;
+        }
+    }
+
+    .bars{
+        
+        font-size: 20px;
+        margin-left: 1200px;
+        
+        
+    }
+
+
+    
+   
+
+
+}
