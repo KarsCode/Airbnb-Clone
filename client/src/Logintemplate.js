@@ -16,17 +16,17 @@ const LoginTemplate = () => {
                 <p className="cnr"> Country/Region </p>
                 <select class="select" value={selects} onChange={e=>setSelects(e.target.value)}>
                     <option></option>
-                    <option value="+91">India (+91)</option>
-                    <option value="+1">USA (+1)</option>
-                    <option value="+44">UK (+44)</option>
-                    <option value="+49">Germany (+49)</option>
+                    <option value="(+91)">India (+91)</option>
+                    <option value="(+1)">USA (+1)</option>
+                    <option value="(+44)">UK (+44)</option>
+                    <option value="(+49)">Germany (+49)</option>
                 
                 </select>
                 
             
              </div>
                 <form>
-                    <input class="pn" type="text" placeholder="Phone number" />  
+                    <input class="pn" type="number" placeholder="Phone number" />  
                     <span class="unit">{selects}</span>    
                 </form>
             </div>
