@@ -79,9 +79,9 @@ button:hover {
 .pn{
  border: 1px solid rgb(187, 186, 186);
  border-radius: 0px 0px 10px 10px;
- width: 410px;
+ width: 380px;
  height: 50px;
- padding-left: 20px;
+ padding-left: 50px;
  font-family: 'Manrope', sans-serif; 
  font-size: 15px;
 }
@@ -134,3 +134,19 @@ button:hover {
  .boob:hover{
    background-color: rgb(242, 242, 242);
  }
+
+ .input-box { 
+  position: relative; 
+}
+
+
+.unit { 
+  position: absolute; 
+  display: block; 
+  left: 630px; 
+  top: 276px; 
+  z-index: 9; 
+  font-family: 'Manrope', sans-serif; 
+  font-weight: 100;
+  color: rgb(97, 96, 96);
+}

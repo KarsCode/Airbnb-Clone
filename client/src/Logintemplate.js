@@ -1,5 +1,7 @@
+import { useState } from "react";
 
 const LoginTemplate = () => {
+    const [selects,setSelects] = useState();
     return ( 
         <div className="body">
         <div className="container">
@@ -12,7 +14,8 @@ const LoginTemplate = () => {
                 </p>
              <div className="dropdown1">
                 <p className="cnr"> Country/Region </p>
-                <select class="select">
+                <select class="select" value={selects} onChange={e=>setSelects(e.target.value)}>
+                    <option></option>
                     <option value="+91">India (+91)</option>
                     <option value="+1">USA (+1)</option>
                     <option value="+44">UK (+44)</option>
@@ -23,8 +26,8 @@ const LoginTemplate = () => {
             
              </div>
                 <form>
-                    <input class="pn" type="text" placeholder="Phone number">      
-                    </input>
+                    <input class="pn" type="text" placeholder="Phone number" />  
+                    <span class="unit">{selects}</span>    
                 </form>
             </div>
             <div class="inf">
