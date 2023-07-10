@@ -16,7 +16,7 @@ const LoginTemplate = () => {
                 <p className="cnr"> Country/Region </p>
                 <select class="select" value={selects} onChange={e=>setSelects(e.target.value)}>
                     <option></option>
-                    <option data-countryCode="US" value="1">UK (+44)</option>
+                    <option data-countryCode="US" value="91">India (+91)</option>
 	<optgroup label="Other countries">
 		<option data-countryCode="DZ" value="213">Algeria (+213)</option>
 		<option data-countryCode="AD" value="376">Andorra (+376)</option>
@@ -238,10 +238,12 @@ const LoginTemplate = () => {
                 
             
              </div>
+             <div class="dropdown2">
                 <form>
                     <input class="pn" type="number" placeholder="Phone number" />  
                     <span class="unit">+({selects})</span>    
                 </form>
+                </div>
             </div>
             <div class="inf">
                 <p>We'll call or text you to confirm your number. Standard message and data rates apply 
