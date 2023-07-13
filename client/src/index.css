@@ -54,10 +54,11 @@ button:hover {
    font-family: 'Manrope', sans-serif;
    font-size: 9px;
    padding: 3px;
-   height: 50px;
+   height: 40px;
 }
 
 .select {
+ margin-top: -10px;
  border: none;
  font-family: 'Manrope', sans-serif;
  font-weight: 500;
@@ -80,7 +81,7 @@ button:hover {
  border: 1px solid rgb(187, 186, 186);
  border-radius: 0px 0px 10px 10px;
  width: 370px;
- height: 50px;
+ height: 42px;
  padding-left: 60px;
  font-family: 'Manrope', sans-serif; 
  font-size: 15px;
@@ -157,7 +158,7 @@ button:hover {
   position: absolute; 
   display: block; 
   left: 630px; 
-  top: 276px; 
+  top: 263px; 
   z-index: 9; 
   font-family: 'Manrope', sans-serif; 
   font-weight: 100;
